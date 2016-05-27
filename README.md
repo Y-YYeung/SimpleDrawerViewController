@@ -54,3 +54,11 @@ nc.modalPresentationStyle = UIModalPresentationOverFullScreen;
 P.S The reason to override `- (void)loadView` is: we may setup some views based on the frame of the view of view controller. Actually, maybe we do not need to override the method. For example, if we have a table view in B, we can set the property `autoresizingMask` of table view to match the frame, such as `self.tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth;`.
 
 
+Demo gif:
+
+### From right:
+![From right](./demo-gif/demo1.gif)
+
+### From left:
+![From left](./demo-gif/demo2.gif)
+
